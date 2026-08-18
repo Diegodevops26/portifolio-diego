@@ -21,11 +21,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Diego Sousa dos Santos | Analista de Sistemas",
+  title: "Diego Santos | Analista de Sistemas",
   description:
-    "Portfólio de Diego Sousa dos Santos — Analista de Sistemas especializado em React.js, Next.js e TypeScript. Do levantamento de requisitos à entrega em produção.",
+    "Portfólio de Diego Santos — Analista de Sistemas especializado em React.js, Next.js e TypeScript. Do levantamento de requisitos à entrega em produção.",
   keywords: [
-    "Diego Sousa dos Santos",
+    "Diego Santos",
     "Analista de Sistemas",
     "React.js",
     "Next.js",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "Desenvolvedor Front-End",
     "IFNMG",
   ],
-  authors: [{ name: "Diego Sousa dos Santos" }],
+  authors: [{ name: "Diego Santos" }],
   openGraph: {
-    title: "Diego Sousa dos Santos | Analista de Sistemas",
+    title: "Diego Santos | Analista de Sistemas",
     description:
       "Do levantamento de requisitos à entrega em produção — React.js, Next.js, TypeScript.",
     type: "website",
