@@ -364,7 +364,7 @@ export default function Portfolio() {
             <span style={{ color: "#8B95AB" }}>diego@portfolio</span>:~$ whoami<span className="blink">▌</span>
           </div>
           <h1 className="display font-bold leading-[1.05] mb-5" style={{ color: "#E7ECF5", fontSize: "clamp(2rem, 5vw, 3.2rem)" }}>
-            Diego Sousa<br />dos Santos
+            Diego Santos
           </h1>
           <p className="text-base sm:text-lg mb-2" style={{ color: "#B7C0D1" }}>
             Analista de Sistemas · React.js · Next.js · TypeScript
