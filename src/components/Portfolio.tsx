@@ -126,7 +126,7 @@ function HeroDiagram() {
   const cx = 130, cy = 175;
 
   return (
-    <svg viewBox="0 0 520 360" className="w-full h-auto max-w-md" role="img" aria-label="Diagrama de arquitetura: Diego Sousa conectado às suas áreas de atuação">
+    <svg viewBox="0 0 520 360" className="w-full h-auto max-w-md" role="img" aria-label="Diagrama de arquitetura: Diego Santos conectado às suas áreas de atuação">
       <defs>
         <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
           <path d="M 22 0 L 0 0 0 22" fill="none" stroke="rgba(94,234,212,0.06)" strokeWidth="1" />
