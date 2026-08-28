@@ -158,7 +158,7 @@ function HeroDiagram() {
       <g style={{ opacity: drawn ? 1 : 0, transition: "opacity 0.5s ease" }}>
         <rect x={cx - 78} y={cy - 32} width="156" height="64" rx="6" fill="#0F1729" stroke="#5EEAD4" strokeWidth="1.5" />
         <text x={cx} y={cy - 4} textAnchor="middle" fill="#E7ECF5" fontFamily="'Space Grotesk', sans-serif" fontWeight="600" fontSize="13">
-          Diego Sousa
+          Diego Santos
         </text>
         <text x={cx} y={cy + 15} textAnchor="middle" fill="#8B95AB" fontFamily="'JetBrains Mono', monospace" fontSize="9.5">
           analista_sistemas.ts
