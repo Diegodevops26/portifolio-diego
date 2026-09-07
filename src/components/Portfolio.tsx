@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useEffect, useRef, useState, ReactNode } from "react";
@@ -126,7 +127,7 @@ function HeroDiagram() {
   const cx = 130, cy = 175;
 
   return (
-    <svg viewBox="0 0 520 360" className="w-full h-auto max-w-md" role="img" aria-label="Diagrama de arquitetura: Diego Santos conectado às suas áreas de atuação">
+    <svg viewBox="0 0 520 360" className="w-full h-auto max-w-md" role="img" aria-label="Diagrama de arquitetura: Diego Sousa conectado às suas áreas de atuação">
       <defs>
         <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
           <path d="M 22 0 L 0 0 0 22" fill="none" stroke="rgba(94,234,212,0.06)" strokeWidth="1" />
@@ -158,10 +159,10 @@ function HeroDiagram() {
       <g style={{ opacity: drawn ? 1 : 0, transition: "opacity 0.5s ease" }}>
         <rect x={cx - 78} y={cy - 32} width="156" height="64" rx="6" fill="#0F1729" stroke="#5EEAD4" strokeWidth="1.5" />
         <text x={cx} y={cy - 4} textAnchor="middle" fill="#E7ECF5" fontFamily="'Space Grotesk', sans-serif" fontWeight="600" fontSize="13">
-          Diego Santos
+          Diego Sousa
         </text>
         <text x={cx} y={cy + 15} textAnchor="middle" fill="#8B95AB" fontFamily="'JetBrains Mono', monospace" fontSize="9.5">
-          analista_sistemas.ts
+          fullstack_dev.ts
         </text>
       </g>
 
@@ -224,7 +225,7 @@ const EXPERIENCE = [
     branch: "main → fluxozen",
     date: "Jan/2025 — atual",
     scope: "feat(fluxozen)",
-    title: "Analista-Desenvolvedor (Projeto Próprio) — FluxoZen Financeiro",
+    title: "Desenvolvedor Full Stack (Projeto Próprio) — FluxoZen Financeiro",
     org: "Projeto próprio",
     body:
       "Análise de requisitos, modelagem e desenvolvimento completo de uma aplicação de gestão financeira com Next.js e Python (Flask). SSR para performance e SEO, dashboard interativo com categorização automática de despesas e integração via API RESTful.",
@@ -364,10 +365,10 @@ export default function Portfolio() {
             <span style={{ color: "#8B95AB" }}>diego@portfolio</span>:~$ whoami<span className="blink">▌</span>
           </div>
           <h1 className="display font-bold leading-[1.05] mb-5" style={{ color: "#E7ECF5", fontSize: "clamp(2rem, 5vw, 3.2rem)" }}>
-            Diego Santos
+            Diego Sousa<br />dos Santos
           </h1>
           <p className="text-base sm:text-lg mb-2" style={{ color: "#B7C0D1" }}>
-            Analista de Sistemas · React.js · Next.js · TypeScript
+            Desenvolvedor Full Stack · React.js · Next.js · TypeScript
           </p>
           <p className="text-sm sm:text-base mb-8 max-w-md" style={{ color: "#8B95AB" }}>
             Formação em Análise e Desenvolvimento de Sistemas pelo IFNMG. Do levantamento de requisitos à entrega em produção — construindo interfaces e sistemas com foco em boas práticas e acessibilidade.
@@ -416,7 +417,7 @@ export default function Portfolio() {
         <Reveal delay={0.05}>
           <div className="grid md:grid-cols-3 gap-8">
             <p className="md:col-span-2 text-base sm:text-lg leading-relaxed" style={{ color: "#B7C0D1" }}>
-              Analista de Sistemas em formação pelo <strong style={{ color: "#E7ECF5" }}>IFNMG</strong>, com todas as disciplinas teóricas concluídas e colação prevista para agosto de 2026. Especializo-me em interfaces com React.js, Next.js e TypeScript, mas atuo em todo o ciclo de desenvolvimento — da análise de requisitos e modelagem de sistemas à integração de APIs RESTful e garantia de qualidade.
+              Desenvolvedor Full Stack em formação pelo <strong style={{ color: "#E7ECF5" }}>IFNMG</strong>, com todas as disciplinas teóricas concluídas e colação prevista para agosto de 2026. Especializo-me em interfaces com React.js, Next.js e TypeScript, mas atuo em todo o ciclo de desenvolvimento — da análise de requisitos e modelagem de sistemas à integração de APIs RESTful e garantia de qualidade.
               <br /><br />
               Disponível para vaga remota, presencial ou mudança de cidade, com disponibilidade total para horário comercial.
             </p>
@@ -426,7 +427,7 @@ export default function Portfolio() {
                 ["formação", "IFNMG · previsão ago/2026"],
                 ["disponibilidade", "remoto · presencial"],
                 ["mudança de cidade", "sim"],
-                ["foco atual", "Analista de Sistemas"],
+                ["foco atual", "Desenvolvedor Full Stack"],
               ].map(([k, v]) => (
                 <div key={k} className="flex justify-between mono text-xs py-2" style={{ borderTop: "1px solid rgba(148,163,184,0.1)" }}>
                   <span style={{ color: "#8B95AB" }}>{k}</span>
@@ -570,7 +571,7 @@ export default function Portfolio() {
           <div className="rounded-xl p-8 sm:p-12 text-center" style={{ background: "#0F1729", border: "1px solid rgba(94,234,212,0.25)" }}>
             <p className="mono text-xs mb-4" style={{ color: "#5EEAD4" }}>{"// vamos conversar"}</p>
             <h2 className="display font-bold mb-5" style={{ color: "#E7ECF5", fontSize: "clamp(1.5rem, 4vw, 2.4rem)" }}>
-              Aberto a oportunidades como<br />Analista de Sistemas
+              Aberto a oportunidades como<br />Desenvolvedor Full Stack
             </h2>
             <p className="text-sm sm:text-base mb-8 max-w-lg mx-auto" style={{ color: "#8B95AB" }}>
               Disponível para vagas remotas, presenciais ou com mudança de cidade. Resposta rápida por e-mail ou WhatsApp.
